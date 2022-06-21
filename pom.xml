@@ -4,7 +4,7 @@
 	<groupId>com.fujitsu.dc</groupId>
 	<artifactId>dc1-engine-extension-aws-sts</artifactId>
 	<packaging>jar</packaging>
-	<version>1.3.25</version>
+	<version>1.3.26-SNAPSHOT</version>
 
 	<name>dc1-engine-extension-aws-sts</name>
 	<licenses>

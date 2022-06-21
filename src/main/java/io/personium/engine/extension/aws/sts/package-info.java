@@ -17,5 +17,5 @@
 /**
  * AWS STS Extension用のパッケージ.
  */
-package com.fujitsu.dc.engine.extension.aws.sts;
+package io.personium.engine.extension.aws.sts;
 

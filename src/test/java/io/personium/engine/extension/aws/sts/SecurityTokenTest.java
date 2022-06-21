@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fujitsu.dc.engine.extension.aws.sts;
+package io.personium.engine.extension.aws.sts;
 
 import static org.fest.assertions.Assertions.assertThat;
 
@@ -28,7 +28,7 @@ import org.junit.Test;
 import org.mozilla.javascript.EcmaError;
 import org.mozilla.javascript.NativeObject;
 
-import com.fujitsu.dc.engine.extension.support.ExtensionLogger;
+import io.personium.engine.extension.support.ExtensionLogger;
 
 /**
  * Ext_AWSSecurityTokenServiceTest. <br />

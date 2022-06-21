@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fujitsu.dc.engine.extension.aws.sts;
+package io.personium.engine.extension.aws.sts;
 
 import java.util.Map.Entry;
 
@@ -38,8 +38,8 @@ import com.amazonaws.services.securitytoken.model.GetFederationTokenRequest;
 import com.amazonaws.services.securitytoken.model.GetFederationTokenResult;
 import com.amazonaws.services.securitytoken.model.GetSessionTokenRequest;
 import com.amazonaws.services.securitytoken.model.GetSessionTokenResult;
-import com.fujitsu.dc.engine.extension.support.AbstractExtensionScriptableObject;
-import com.fujitsu.dc.engine.extension.support.ExtensionErrorConstructor;
+import io.personium.engine.extension.support.AbstractExtensionScriptableObject;
+import io.personium.engine.extension.support.ExtensionErrorConstructor;
 
 /**
  * Engine-Extension AWS STS機能.

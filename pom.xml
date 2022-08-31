@@ -4,7 +4,7 @@
     <groupId>io.personium</groupId>
     <artifactId>personium-ex-awssts</artifactId>
     <packaging>jar</packaging>
-    <version>1.4.0-SNAPSHOT</version>
+    <version>1.4.0</version>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -241,7 +241,7 @@
         <dependency>
             <groupId>io.personium</groupId>
             <artifactId>personium-ex-base</artifactId>
-            <version>1.5.0-SNAPSHOT</version>
+            <version>1.5.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

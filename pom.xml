@@ -4,7 +4,7 @@
     <groupId>io.personium</groupId>
     <artifactId>personium-ex-awssts</artifactId>
     <packaging>jar</packaging>
-    <version>1.3.26</version>
+    <version>1.4.0-SNAPSHOT</version>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -15,7 +15,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
+        <surefire.version>2.22.2</surefire.version>
         <jvm.option>-Xms512m -Xmx512m -XX:MaxPermSize=256m -XX:-UseSplitVerifier</jvm.option>
     </properties>
 
@@ -87,9 +88,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.21.0</version>
+                <version>${surefire.version}</version>
                 <configuration>
-                    <argLine>${jvm.option}</argLine>
+                    <argLine>-Xms512m -Xmx512m</argLine>
                 </configuration>
             </plugin>
             <plugin>
@@ -149,7 +150,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>2.12</version>
+                <version>${surefire.version}</version>
                 <reportSets>
                     <reportSet>
                         <reports>
@@ -240,7 +241,7 @@
         <dependency>
             <groupId>io.personium</groupId>
             <artifactId>personium-ex-base</artifactId>
-            <version>1.4.6</version>
+            <version>1.5.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
